@@ -104,13 +104,11 @@ pointButton.addEventListener("click", function() {
     screen.append(numberEntry);
 });
 
-//EQUALS BUTTON
 let equalsButton = document.querySelector(".equals")
 equalsButton.addEventListener("click", function() {
     let toEvaluate = screen.innerText;
     evaluation = eval(toEvaluate);
     screen.innerHTML = evaluation;
-
 });
 
 let plusButton = document.querySelector(".plus")
