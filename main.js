@@ -4,10 +4,6 @@ function buttonPress(buttonMessage) {
 
 let screen = document.querySelector(".screen")
 
-// let clearButton = document.querySelector(".clear")
-// clearButton.addEventListener("click",  
-// })
-
 let clearButton = document.querySelector(".clear")
 clearButton.addEventListener("click", function () {
     screen.innerHTML = "<p></p>";
