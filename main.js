@@ -4,11 +4,9 @@ function buttonPress(buttonMessage) {
 
 let screen = document.querySelector(".screen")
 
-
 // let clearButton = document.querySelector(".clear")
 // clearButton.addEventListener("click",  
 // })
-
 
 let clearButton = document.querySelector(".clear")
 clearButton.addEventListener("click", function () {
@@ -33,13 +31,11 @@ nineButton.addEventListener("click", function() {
     screen.append(numberEntry);
 });
 
-
 let divideButton = document.querySelector(".divide")
 divideButton.addEventListener("click", function() {
     let numberEntry = document.createTextNode("/");
     screen.append(numberEntry);
 });
-
 
 let fourButton = document.querySelector(".four")
 fourButton.addEventListener("click", function() {
@@ -47,20 +43,17 @@ fourButton.addEventListener("click", function() {
     screen.append(numberEntry);
 });
 
-
 let fiveButton = document.querySelector(".five")
 fiveButton.addEventListener("click", function() {
     let numberEntry = document.createTextNode("5");
     screen.append(numberEntry);
 });
 
-
 let sixButton = document.querySelector(".six")
 sixButton.addEventListener("click", function() {
     let numberEntry = document.createTextNode("6");
     screen.append(numberEntry);
 });
-
 
 let multiplyButton = document.querySelector(".multiply")
 multiplyButton.addEventListener("click", function() {
